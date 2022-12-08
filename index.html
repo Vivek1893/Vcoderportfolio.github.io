@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="header">
+        <class class="contianer">
+            <nav>
+
+                <img src="images\Untitled-removebg-preview.png" alt="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Vivek Maurya</span><br><br> from India</h1>
+            </div>
+    </div>
+</div>
+<!-- ---------about----------- -->
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images\7850.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Brandon is a third-year student at the University of Washington studying Biology with minors in Chemistry, Neuroscience, and Health Studies. He shares his core values, leadership philosophy, and more through his website.
+
+
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experince')">Experince</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <!-- <li><span>Full Stack developer</span></li><br> -->
+                        <li><span>Web development</span></li><br>
+                        <li><span>Data Entry</span></li><br>
+                        <li><span>power point - Ms word</span></li><br>
+                        <li><span>PPT/Poster</span></li><br>
+                        <li><span>Video Editing</span></li><br>
+                        <li><span>Typing</span></li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experince">
+                    <ul>
+                        <li><span>Web Development</span><br> 6 Months experience</li><br>
+                        <li><span>Data Entry</span><br>One Years experince</li><br>
+                        <li><span>Power point/ Ms word</span><br>Two Years experince </li><br>
+                        <li><span>Video Editing</span><br>One Years experience </li><br>
+                        <li><span>ppt/poster</span><br>One Years experience </li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-25</span><br>Computer Enginnering in Mumbai University</li><br>
+                        <li><span>2022-22</span><br>Frontend Developer</li><br>
+                        <li><span>2019-21</span><br>HSC</li><br>
+                        <li><span>2018-2019</span><br>SCC</li><br>
+                       
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------services------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web developer</h2>
+                <p>So... we have provided all types of website , webpage, and personal portfolio and more....... </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Canva</h2>
+                <p>So.. we have provided all types of ppt, poster, banner,logo,invitation card,photo book , and busniess card and more............</p>
+                <a href="#">Learn more</a>
+            </div>
+            <!-- <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>app developer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor alias temporibus placeat iure fuga voluptates aspernatur obcaecati inventore amet sapiente maiores cupiditate ipsum modi nobis dicta aut, a ullam molestias.</p>
+                <a href="#">Learn more</a>
+            </div> -->
+              <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Power point</h2>
+                <p>So...we have provided all types of power point related services and ms-word office related services and more......</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- ------------------------Portfolio------------------ -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images\work-1.png" alt="">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>So I have created free book provider website for specially college students for helping propose.... </p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\work-2.png" alt="">
+                <div class="layer">
+                    <h3>Canva</h3>
+                    <p>So we have design so many ppt for college students and we have design poster and logo for more.........</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\work-3.png" alt="">
+                <div class="layer">
+                    <h3> App devloper</h3>
+                    <p>So we have develop noraml app for your business propose also...</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+<!-- ----------------------------Contact------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i><a href="#">vivekmaurya1893@gmail.com</a></p>
+                <p> <i class="fa-sharp fa-socomlid fa-square-phone"></i><a href="">8655685272</a></p>
+
+                
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/login"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-telgram"></i></a>
+                </div>
+                <a href="images\resumes.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text"name="Name" placeholder="Your Name" required>
+                    <input type="email"name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright<i class="fa-regular fa-copyright"></i>vivek.portfolio website</p>
+
+    </div>
+</div>
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } 
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz6xKbT5dnUo5N3s0bh5UpO0MQdKvz8616lG9icc6MfaHeuyK1gh2WXg3wJLmQtF8IX3g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+
+</html>
